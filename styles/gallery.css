@@ -7,12 +7,12 @@ body {
   font-family: 'Amatic SC', cursive;
   font-size: 25px;
   font-weight: bold;
-
 }
+
 
 #container{
   background-color: white;
-  opacity: 0.86;
+  opacity: 0.89;
   width: 85%;
   height: 300%;
   margin: auto;
@@ -64,6 +64,13 @@ li{
   grid-column: 2/3;
   grid-row: 1/2;
 }
+
+.camping-text{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  text-align: center;
+  padding-top: 135px;
+}
 .camping{
   border-radius: 50%;
   height: 180px;
@@ -71,6 +78,13 @@ li{
   border-color:red;
   border-style: solid;
   border-width: 2px;
+}
+
+.fishing-text{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  text-align: center;
+  padding-top: 135px;
 }
 
 .fishing-box{
@@ -88,12 +102,19 @@ li{
   border-width: 2px;
 }
 
+.hiking-text{
+  grid-column: 1/2;
+  grid-row: 3/4;
+  text-align: center;
+  padding-top: 135px;
+}
 .hiking-box{
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 4;
 }
+
 .hiking{
   border-radius: 50%;
   height: 180px;
@@ -103,6 +124,12 @@ li{
   border-width: 2px;
 }
 
+.rock_climbing-text{
+  grid-column: 2/3;
+  grid-row: 4/5;
+  text-align: center;
+  padding-top: 135px;
+}
 .rock_climbing-box{
   grid-column-start: 1;
   grid-column-end: 2;
