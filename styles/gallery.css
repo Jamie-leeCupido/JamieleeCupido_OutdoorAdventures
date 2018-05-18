@@ -1,0 +1,129 @@
+body {
+  background-color: gold;
+  background-image: url("https://hfpi.ca/files/4414/7638/9709/forest.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+#container{
+  background-color: white;
+  opacity: 0.86;
+  width: 85%;
+  height: 300%;
+  margin: auto;
+  display: grid;
+  grid-template-areas:
+    'header header header'
+    'nav article ads'
+    'footer footer footer';
+  grid-gap: 10px;
+}
+
+.gridbox1{
+    grid-area: header;
+}
+
+#logo {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  text-align: center;
+}
+
+
+li{
+  display: inline;
+}
+
+.navlist{
+  padding: 0;
+  word-spacing:100px;
+  color: #343512;
+  text-align: center;
+}
+
+.gridbox2{
+    grid-area: nav;
+    width:100%;
+    font-size: 25px;
+    padding-left: 5%;
+}
+
+.gridbox3{
+  grid-area: article;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(4,1fr);
+}
+
+.camping-box{
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.camping{
+  border-radius: 50%;
+  height: 180px;
+  width:180px;
+  border-color:red;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.fishing-box{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.fishing{
+  border-radius: 50%;
+  height: 180px;
+  width:180px;
+  border-color:red;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.hiking-box{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.hiking{
+  border-radius: 50%;
+  height: 180px;
+  width:180px;
+  border-color:red;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.rock_climbing-box{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+.rock_climbing{
+  border-radius: 50%;
+  height: 180px;
+  width:180px;
+  border-color:red;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.gridbox5{
+  grid-area: footer
+}
+footer {
+  background-color: #C6D8D3;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}

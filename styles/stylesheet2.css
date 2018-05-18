@@ -1,0 +1,115 @@
+/* styling for prject2 by Jamie-lee Cupido this is the one 15/05/2018*/
+
+body{
+  background-color: gold;
+  background-image: url("https://hfpi.ca/files/4414/7638/9709/forest.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+.maindiv{
+  width: 100%;
+}
+.box1{
+  width: 20%;
+  float: left;
+}
+#container{
+  background-color: white;
+  opacity: 0.86;
+  width: 85%;
+  display: grid;
+    grid-template-areas:
+    'header header header'
+    'nav article ads'
+    'footer footer footer';
+    grid-gap: 10px;
+    color: red;
+    margin: auto;
+}
+.gridbox1{
+    grid-area: header;
+}
+
+#logo {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  text-align: center;
+}
+
+
+li{
+  display: inline;
+}
+
+.navlist{
+  padding: 0;
+  word-spacing:100px;
+  color: #343512;
+  text-align: center;
+}
+
+.gridbox2{
+    grid-area: nav;
+    width:100%;
+    font-size: 25px;
+    padding-left: 5%;
+}
+
+.gridbox3{
+  grid-area: article;
+  color: #C61D3A;
+}
+
+.div_border{
+  border-style: solid;
+  border-width: 2px;
+  border-bottom: #C61D3A;
+}
+
+h4{
+  margin-left: 40px;
+}
+
+.image{
+  margin-left: 350px;
+  border-radius: 50%;
+  border-color: #C61D3A;
+  border-style: solid;
+  border-width: 3px;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+
+}
+
+.textarea{
+  border-style: solid;
+  color: #468E37;
+  border-width: 3px;
+  border-color: #C61D3A;
+
+
+}
+.gridbox4{
+    grid-area: ads;
+}
+
+.gridbox5{
+  grid-area: footer;
+  background-color: #C6D8D3;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+.box2{
+  width: 20%;
+
+}
