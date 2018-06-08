@@ -23,6 +23,10 @@ body{
   float: left;
 }
 
+h2{
+  text-decoration: underline;
+}
+
 .gridbox1{
     grid-area: header;
 
@@ -123,7 +127,7 @@ li{
     background-color: #C6D8D3;
     color: black;
     text-align: center;
-  
+
 
     }
 
@@ -131,4 +135,42 @@ li{
       width: 20%;
       height: 300%;
       float: right;
+}
+
+@media screen and (max-width: 640px) {
+
+  #container {
+    width: 100%;
+  }
+  #logo {
+    width: 40%;
+    margin-left: 25%;
+  }
+
+  h2{
+    text-align: center;
+    margin-left: 15%;
+    margin: 0;
+    padding:0;
+  }
+}
+
+
+/* styling media querie for mobile view */
+@media screen and (max-width: 360px) {
+
+  #container {
+    width: 100%;
+  }
+  #logo {
+    width: 40%;
+    margin-left: 5%;
+  }
+
+  h2{
+    text-align: center;
+    margin-left: 15%;
+    margin: 0;
+    padding:0;
+  }
 }

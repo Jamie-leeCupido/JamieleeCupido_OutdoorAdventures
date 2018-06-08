@@ -52,6 +52,15 @@ li{
   word-spacing:100px;
   color: #343512;
   text-align: center;
+  text-decoration-color: pink;
+}
+
+.navlist li:hover{
+  color: #343512;;
+}
+
+.navlist li:active{
+  color: pink;
 }
 
 .gridbox2{
@@ -72,12 +81,8 @@ li{
   border-bottom: #C61D3A;
 }
 
-h4{
-  margin-left: 40px;
-}
 
 .image{
-  margin-left: 520px;
   border-color: #C61D3A;
   border-style: solid;
   border-width: 3px;
@@ -92,8 +97,7 @@ h4{
   color: #468E37;
   border-width: 3px;
   border-color: #C61D3A;
-
-
+  padding: 10px;
 }
 .gridbox4{
     grid-area: ads;
@@ -114,7 +118,7 @@ h4{
 }
 
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: #C61D3A;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -146,7 +150,7 @@ h4{
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd}
+.dropdown-content a:hover {background-color: green;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -156,4 +160,97 @@ h4{
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
+}
+
+#image{
+  display: inline;
+  border-radius: 50%;
+  height: 15%;
+  width:15%;
+  border-color: green;
+  border-style: solid;
+  border-width: 4px;
+  margin-left: 100px;
+  text-align: center;
+}
+
+#heading{
+  text-decoration: underline;
+  text-align: center;
+  font-size: 55px;
+}
+
+.center_image{
+  text-align: center;
+}
+
+/* .overlay {
+  position: absolute;
+  border-radius: 50%;
+  height: 180px;
+  width:180px;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 35px;
+  font-style: oblique;
+  padding:px;
+  padding-top: ;
+  text-align: center;
+  margin-left: 105px;
+}
+
+.link_image {
+  position: relative;
+  height: 180px;
+  width: 180px;
+}
+.link_image:hover .overlay {
+  opacity: 1;
+} */
+
+/* responsive design */
+
+@media screen and (max-width: 1500px) {
+
+  #container {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+
+  #container {
+    width: 100%;
+  }
+  #logo {
+    width: 50%;
+    margin-left: 25%;
+  }
+  #image {
+    width: 40%;
+    height: 40%;
+    margin-left: 0%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  #container {
+    width: 100%;
+  }
+  #logo {
+    width: 50%;
+    margin-left: 7%;
+  }
+  #image {
+    width: 40%;
+    height: 40%;
+    margin-left: 0%;
+  }
 }
