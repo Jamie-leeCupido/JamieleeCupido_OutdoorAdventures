@@ -13,6 +13,7 @@ body{
 
 }
 
+/* styling the header */
 .maindiv{
   width: 100%;
   height: 300%;
@@ -53,12 +54,6 @@ h2{
     margin: auto;
 }
 
-/* .navbar{
-  width:900px;
-  height:100px;
-  font-size: 35px;
-  text-align: center;
-} */
 
 li{
   display: inline;
@@ -137,6 +132,8 @@ li{
       float: right;
 }
 
+/* adding responsiveness */
+/* responsiveness for tablet view */
 @media screen and (max-width: 640px) {
 
   #container {
